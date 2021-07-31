@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/Persona.js"></script>
+    <script src="./js/Cliente.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/Manejadora.js"></script>
+</head>
+
+<body>
+
+
+    <h1>ABM Personas</h1>
+    <div class="division"></div>
+    <form id="form" >
+        <input type="text" name="Id" id="labelId" placeholder="ID" disabled>
+        <input type="text" name="Nombre" id="idNombre" placeholder="Nombre">
+        <input type="text" name="Apellido" id="idApellido" placeholder="Apellido">
+        <input type="text" name="Edad" id="idEdad" placeholder="Edad">
+    
+        <select name="Sexo" id="idSexo">
+            <option value="Masculino" selected>Masculino</option>
+            <option value="Femenino">Femenino</option>
+        </select>
+        
+
+        <div id="Botones">
+            <button id="Agregar">Agregar</button>
+            <button id="Eliminar">Eliminar</button>
+            <button id="Limpiar" >Limpiar LocalStorage</button>
+        </div>
+    </form>
+
+    <div class="division"></div>
+    <div>
+        <label for="">Filtrar por:</label>
+
+        <select name="" id="selectFiltro">
+            <option value="Femenino">Femenino</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Todos" selected>Todos</option>
+        </select>
+
+
+    </div>
+    <div class="division"></div>
+
+    <div id="divPromedio">
+        <label id="texto1" for="">Promedio del Edad:</label>
+        <label id="promedio" for=""></label>
+        <button id="botonPromedio">Calcular Promedio</button>
+    </div>
+    <div class="division"></div>
+
+    <div>
+        <h3>Campos Mostrados</h4>
+            <label id="texto2" for="">Tildar los campos a mostrar</label>
+    </div>
+
+    <div id="divCampos">
+        <input type="checkbox" id="Id" checked >
+        <label for="Id" >ID</label>
+
+        <input type="checkbox" id="Nombre" checked>
+        <label for="Nombre">Nombre</label>
+
+        <input type="checkbox" id="Apellido" checked>
+        <label for="Apellido">Apellido</label>
+
+        <input type="checkbox" id="Edad" checked>
+        <label for="Edad">Edad</label>
+
+
+
+    </div>
+    
+    <div class="division"></div>
+
+    <div class="invisible" id = "modal">   
+       
+    </div>
+   
+
+
+    <h2>Lista de Personas</h2>
+    <table>
+        <thead id="thead">
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+</body>
+
+</html>

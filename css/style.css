@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(190, 188, 188);
+    color: black;
+}
+
+table{
+    width: 60%;
+    background-color: rgba(255, 255, 255);
+    margin: auto;
+    /* color: white; */
+    border-collapse: collapse;
+}
+
+form{
+    background: rgb(105, 105, 105); 
+    border: black;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 25px;
+    justify-content: center;
+    align-items: start;  
+}
+
+input[type=text]{
+    width: 80%;
+    height: 7px;
+    padding: 9px;
+    margin: 2px;
+    border: none;
+
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+select{
+    width: 30%;
+    height: 7px;
+    margin: 2px;
+    border: none;
+}
+
+#idAlta{
+    background: rgba(8, 155, 165, 0.678);
+    color: white;
+    width: 60px;
+    height: 30px;
+    border:none;
+    /* font-size: 25px; */
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+}
+
+#Guardar{
+    /* margin-top: 10px; */
+    margin: 5px 0;
+    /* font-size: 12px; */
+    width: 160px;
+    height: 30px;
+    /* border: none; */
+}
+
+#modal{
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(54, 54, 54, 0.397);
+}
+
+#selectFiltro{
+    color: black;
+    background: rgba(8, 155, 165, 0.678);
+    width: 150px;
+    height: 30px;
+}
+
+tr{
+    font-size: 16px;
+    margin: 15%;
+}
+
+th{
+    font-size: 19px;
+    background-color: rgba(8, 155, 165, 0.678);
+    color: white;
+}
+
+button{
+    background-color: rgba(8, 155, 165, 0.678);
+    width: 109px;
+    height: 30px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#idTipo{
+    width: 217px;
+    height: 35px;
+}
+
+.division{
+    width: 100%;
+    background-color: #ddd;
+    height: 2px;
+}
+
+#divPromedio, #texto2{
+    width: 100%; 
+}
+
+#divPromedio{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.visible{
+    display: block;
+}
+
+.invisible{
+    display: none;
+}
+
+#promedio{
+    background-color: rgba(8, 155, 165, 0.678);
+    height: 30px;
+}
+
+#texto1, #promedio{
+    width: 200px;
+    height: 15px;
+    display: inline-block;
+}
+
+#Limpiar{
+    background-color: rgb(179, 51, 51);
+}
+
+#botonPromedio, #Limpiar{
+    width: 140px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+#idSexo{
+    height: 30px;
+}
